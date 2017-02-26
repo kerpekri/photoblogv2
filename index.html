@@ -17,7 +17,7 @@
         <script type="text/javascript">
             $(document).ready(function() {
                 $('#fullpage').fullpage({
-                    anchors: ['firstPage', 'secondPage', '3rdPage'],
+                    anchors: ['begin', 'people', 'locations'],
                     sectionsColor: ['#fff', '#fff', '#fff'],
                     navigation: true,
                     navigationPosition: 'right',
@@ -31,24 +31,38 @@
     <body>
         <div id="fullpage">
             <div class="section " id="section0">
-                <div class="intro">
-                    <h1 id="logo_name">Journey Wonders</h1>
-                    <p id="">journey you can read about</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="intro">
+                            <div class="col s9 offset-s3">
+                                <h1 id="logo_name">Journey Wonders</h1>
+                            </div>
+
+                            <div class="col s6 offset-s6">
+                                <p id="">journey you can read about</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="section" id="section1">
-                <div class="intro">
-                    <h1>Clickable</h1>
-                    <p>
-                        You can even click on the navigation and jump directly to another section.
-                    </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col s9">
+                            <img id="section1_image" src="css/images/header_image.jpg">
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="section" id="section2">
-                <div class="intro">
-                    <h1>Enjoy it</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="intro">
+                            <h1>Enjoy it</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
