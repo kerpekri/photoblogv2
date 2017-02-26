@@ -12,11 +12,3 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
-/* header  */
-#header-logo {
-    height: 90px; /* what about medium & small devices? */
-}
-
-#header-parallax {
-    width: 100%;
-}
