@@ -32,4 +32,11 @@ h1 {
 
 .text_inside_image {
 	 font-size: 8vw;
+	 padding-top: 50%;
+	 color: #0b817d;
+ }
+
+ #logo_paragraph {
+ 	color: #0b817d;
+ 	padding-left: 10%;
  }
