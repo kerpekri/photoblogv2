@@ -19,6 +19,8 @@ h1 {
 	/*font-size: 110px;*/
 	color: #1a1a1a;
 	margin:0;
+	font-size: 6vw;
+	text-align: center;
 }
 
 .intro p {
@@ -33,10 +35,12 @@ h1 {
 .text_inside_image {
 	 font-size: 8vw;
 	 padding-top: 50%;
-	 color: #0b817d;
+	 color: #7ceadb;
  }
 
  #logo_paragraph {
- 	color: #0b817d;
- 	padding-left: 10%;
+ 	color: #1a1a1a;
+ 	padding-left: 60%;
+ 	font-size: 1vw;
+ 	text-align: right;
  }
